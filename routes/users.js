@@ -59,6 +59,7 @@ router.get('/:id', async (req, res) => {
   }
 })
 
+//TODO
 //FOLLOW USER
 router.put('/:id/follow', async (req, res) => {
   //you can't follow yourself
